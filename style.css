@@ -82,8 +82,22 @@ ol img{
   margin-bottom: 64px;
   padding-bottom: 64px;
   text-align: justify;
+ }
 
+ .historia {
+  color: #0c51a7;
+ }
 
+ .linha1 {
+  color: #591b98;
+ }
+
+ .linha2 {
+  color: #e5245e;
+ }
+
+ .linha3 {
+  color: #e95e10;
  }
 
  hr {
