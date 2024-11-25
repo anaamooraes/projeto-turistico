@@ -1,10 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
-width: 1280px;
-height: 3279px;
+/* width: 1280px; */
+/* height: 3279px; */
 font-size: 16px;
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
-align-items: center;
+margin-right: 80px;
+padding: 80px;
 
 }
 
@@ -17,17 +23,27 @@ p {
   font-size: 16px;
 }
 
-img{ 
+img{
   border-radius: 28px;
-  max-width: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 16px;
+
+} 
+
+ol img{ 
+  border-radius: 28px;
+  width: 100%;
   text-align: center;
+  margin-bottom: 20px;
+  margin-top: 48px;
   
 }
 
  header {
   width: 1120;
   height: 79;
-  text-align:justify;
+  text-align: justify;
  }
 
  .atract {
@@ -35,7 +51,7 @@ img{
  }
 
  #description {
-  margin: 40px;
+  /* margin: 40px; */
  }
 
 
@@ -51,15 +67,23 @@ img{
 
  ol {
   font-size: 28px;
- }
-
- #foto {
-  border-radius: 16px;
-
+  list-style: none;
  }
 
  main {
   margin: 88, 80, 137, 88;
+ }
+
+ #destinos {
+  /* width: 1120px; */
+  /* height: 88px; */
+  /* z-index: 2; */
+  margin-top: 64px;
+  margin-bottom: 64px;
+  padding-bottom: 64px;
+  text-align: justify;
+
+
  }
 
  hr {
@@ -82,10 +106,10 @@ img{
 
 
  footer {
-  width: 206px;
-  height: 24px;
-  vertical-align: middle;
-  text-align: center;
+    margin-top: 65px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 65px, 537px, 48px, 537px;
 
  }
 
